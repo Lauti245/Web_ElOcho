@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuestros juegos</title>
+    <link href="estilOcho.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="erizomarron.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <nav class="nav" id="navbar">
+      <div class="nav__container">
+        <h1 class="nav__title" id="title">EL OCHO</h1>
+
+        <div class="bars__menu">
+          <span class="line1__bars-menu"></span>
+          <span class="line2__bars-menu"></span>
+          <span class="line3__bars-menu"></span>
+        </div>
+
+        <ul class="dropdown" id="menu">
+          <li class="dropdown__list">
+            <a href="#" class="dropdown__link">
+              <img src="./assets/house.svg" class="dropdown__icon" />
+              <span class="dropdown__span">Inicio</span>
+            </a>
+          </li>
+
+          <li class="dropdown__list">
+            <a href="#" class="dropdown__link">
+              <img src="./assets/projects.svg" class="dropdown__icon" />
+              <span class="dropdown__span">Próximos Eventos </span>
+              <img src="./assets/down.svg" class="dropdown__arrow" />
+
+              <input type="checkbox" class="dropdown__check" />
+            </a>
+
+            <div class="dropdown__content">
+              <ul class="dropdown__sub">
+                <li class="dropdown__li">
+                  <a href="#" class="dropdown__anchor">Project 1</a>
+                </li>
+                <li class="dropdown__li">
+                  <a href="#" class="dropdown__anchor">Project 2</a>
+                </li>
+                <li class="dropdown__li">
+                  <a href="#" class="dropdown__anchor">Project 3</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="dropdown__list">
+            <a href="#" class="dropdown__link">
+              <img src="./assets/help.svg" class="dropdown__icon" />
+              <span class="dropdown__span">Carta de Comida y Bebida</span>
+            </a>
+          </li>
+
+          <li class="dropdown__list">
+            <a href="#" class="dropdown__link">
+              <img src="./assets/email.svg" class="dropdown__icon" />
+              <span class="dropdown__span">Contacto</span>
+              <img src="./assets/down.svg" class="dropdown__arrow" />
+
+              <input type="checkbox" class="dropdown__check" />
+            </a>
+
+            <div class="dropdown__content">
+              <ul class="dropdown__sub">
+                <li class="dropdown__li">
+                  <a href="#" class="dropdown__anchor">Contact 1</a>
+                </li>
+                <li class="dropdown__li">
+                  <a href="#" class="dropdown__anchor">Contact 2</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container" id="section1">Section 1</section>
+    <section class="conciertos" id="section2">Section 2</section>
+
+    <div class="reserva">
+      <h1>Reservar</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
